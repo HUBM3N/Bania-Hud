@@ -1,0 +1,276 @@
+event ScopeRemoval
+{
+Animate HudScope Position "9999 9999" Linear 0.0 0.0
+}
+
+event DamagedPlayer
+{
+RunEvent ScopeRemoval 0.0
+Animate Hand Alpha "255" Linear 0.0 0.0
+Animate Hand Alpha "0" Linear 1.4 0.0
+Animate damage position "-41 r78" Linear 0.0 1.4
+Animate damage position "-41 r89" Linear 1.4 0.0
+
+
+}
+
+
+//=================================================================================================================================
+
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthValueS1 	bgcolor		"15 15 15 255"				Linear 0.0 0.2
+	Animate	PlayerStatusHealthValueS1 	bgcolor		"230 230 230 255"				Linear 0.2 0.2
+	Animate	PlayerStatusHealthValueS1 	bgcolor		"15 15 15 255"				Linear 0.4 0.2
+	Animate	PlayerStatusHealthValueS1 	bgcolor		"230 230 230 255"				Linear 0.6 0.2
+	Animate	PlayerStatusHealthValue 	fgcolor		"230 230 230 255"				Linear 0.0 0.2
+	Animate	PlayerStatusHealthValue 	fgcolor		"15 15 15 255"				Linear 0.2 0.2
+	Animate	PlayerStatusHealthValue 	fgcolor		"230 230 230 255"			Linear 0.4 0.2
+	Animate	PlayerStatusHealthValue 	fgcolor		"15 15 15 255"				Linear 0.6 0.2
+	Animate	PlayerStatusHealthValue1 	fgcolor		"25 175 225 255"			Linear 0.0 0.0
+
+
+
+
+	
+	
+	RunEvent HudHealthBonusPulseLoop		0.4
+}
+
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 			0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 			0.0
+	StopEvent HudHealthBonusPulseLoop 		0.0
+	Animate	PlayerStatusHealthValueS1 	bgcolor		"15 15 15 128"				Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue 	fgcolor		"230 230 230 255"			Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue1 	fgcolor		"230 230 230 255"			Linear 0.0 0.0
+
+
+}
+
+//=================================================================================================================================
+
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthValueS1 	bgcolor		"225 50 20 175"				Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue1 	fgcolor		"225 50 30 255"			Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue 	fgcolor		"245 225 220 255"				Linear 0.0 0.0
+
+
+	
+	RunEvent HudHealthDyingPulseLoop		0.0
+}
+
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 			0.0
+}
+
+event HudHealthDyingPulseStop
+{
+
+	StopEvent HudHealthDyingPulse 			0.0
+	StopEvent HudHealthDyingPulseLoop 		0.0
+
+	Animate	PlayerStatusHealthValueS1 	bgcolor		"15 15 15 128"				Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue1 	fgcolor		"230 230 230 255"			Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue 	fgcolor		"230 230 230 255"			Linear 0.0 0.0
+
+
+
+}
+
+//=================================================================================================================================
+
+event HudLowAmmoPulse
+{
+	Animate	AmmoInClipShadow 	bgcolor		"225 50 20 175"					Linear 0.0 0.0
+	Animate	AmmoNoClipShadow 	bgcolor		"225 50 20 175"						Linear 0.0 0.0
+	Animate	AmmoInReserveShadow 	bgcolor		"225 50 20 175"				Linear 0.0 0.0
+	Animate	AmmoInClip	fgcolor		"245 225 220 255"				Linear 0.0 0.0
+	Animate	AmmoInReserve	fgcolor		"245 225 220 255"				Linear 0.0 0.0
+	Animate	AmmoNoClip	fgcolor		"245 225 220 255"				Linear 0.0 0.0
+
+	
+	RunEvent HudLowAmmoPulseLoop			0.0
+}
+
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 				0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 				0.0
+	StopEvent HudLowAmmoPulseLoop 			0.0
+	
+	Animate	AmmoInClipShadow 	bgcolor		"15 15 15 128"					Linear 0.0 0.0
+	Animate	AmmoNoClipShadow 	bgcolor		"15 15 15 128"						Linear 0.0 0.0
+	Animate	AmmoInReserveShadow 	bgcolor		"15 15 15 128"				Linear 0.0 0.0
+	Animate	AmmoInClip	fgcolor		"230 230 230 255"				Linear 0.0 0.0
+	Animate	AmmoInReserve	fgcolor		"230 230 230 255"				Linear 0.0 0.0
+	Animate	AmmoNoClip	fgcolor		"230 230 230 255"				Linear 0.0 0.0
+}
+
+//=================================================================================================================================
+
+event HudMedicCharged
+{
+	Animate	chargelabelS 	bgcolor		"50 125 225 175"				Linear 0.0 0.0
+
+
+	RunEvent HudMedicChargedLoop			0.4
+}
+
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 				0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 				0.0
+	StopEvent HudMedicChargedLoop 			0.0
+	
+	Animate	chargelabelS 	bgcolor		"15 15 15 128"				Linear 0.0 0.0
+
+}
+
+//=================================================================================================================================
+
+event FlagOutlineHide
+{
+	Animate OutlineImage					Alpha		"0"					Linear 0.0 0.1
+}
+
+event FlagOutline
+{
+	RunEvent FlagOutlineHide 				0.0
+	Animate OutlineImage					Alpha		"0"					Linear 0.1 0.2
+	
+	Animate OutlineImage					Position	"9999 9999"			Linear 0.1 0.2
+	Animate OutlineImage					Size		"0 0"				Linear 0.1 0.2
+
+	Animate OutlineImage					Position	"9999 9999"			Linear 0.7 0.2
+	Animate OutlineImage					Size		"0 0"				Linear 0.7 0.2
+	
+	Animate OutlineImage					Alpha		"0"					Linear 0.9 0.1
+}
+
+//=================================================================================================================================
+
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"				Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-200"		Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Size		"400 400"			Linear 0.0 0.2
+
+	RunEvent HudSpyDisguiseHide	0.7
+
+}
+
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"3 413"				Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Size		"55 55"				Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"					Linear 0.2 0.1
+}
+
+event HudSpyDisguiseFadeIn
+{
+	Animate PlayerStatusSpyImage			Alpha		"255"				Linear 0.9 0.1
+	
+	Animate PlayerStatusClassImage			Alpha		"255"				Linear 0.0 0.0
+	Animate bbgg			Alpha		"255"				Linear 0.0 0.0
+	Animate classmodelpanel			Position		"0 r125"					Linear 0.0 0.0
+	Animate ItemEffectMeterCount			Position		"5 r93"					Linear 0.0 0.0
+
+Animate eye Alpha "255" Linear 0.0 0.0
+Animate eye Alpha "0" Linear 1.1 0.0
+}
+
+event HudSpyDisguiseFadeOut
+{
+	Animate PlayerStatusSpyImage			Alpha		"0"					Linear 0.9 0.1	
+
+	Animate PlayerStatusClassImage			Alpha		"0"					Linear 0.0 0.0
+
+	Animate bbgg			Alpha		"0"					Linear 0.0 0.0
+	Animate ItemEffectMeterCount			Position		"5 r54"				Linear 0.0 0.0
+	Animate classmodelpanel			Position		"999999 r125"					Linear 0.0 0.0
+
+}
+
+//=================================================================================================================================
+
+event OvertimeShow
+{
+	Animate OvertimeLabel					Alpha		"255"				Linear 0.0 0.1	
+	Animate OvertimeBG						Alpha		"255"				Linear 0.0 0.1	
+}
+
+event HudSnapShotReminderIn
+{
+	Animate ScreenshotPanel					Position	"9999 9999"			Linear 0.0 0.001
+	Animate ScreenshotPanel					Position	"9999 9999"			Spline 0.001 0.2
+}
+
+event HudReplayReminderIn
+{
+	Animate ReplayReminder					Position	"9999 9999"			Linear 0.0 0.001
+	Animate ReplayReminder					Position	"9999 9999"			Spline 0.001 0.2
+}
+
+event HudReplayReminderIn2
+{
+	Animate ReplayReminder					Position	"9999 9999"			Linear 0.0 0.001
+	Animate ReplayReminder					Position	"9999 9999"			Spline 0.001 0.2
+}
+
+event HudReplayTipIn
+{
+	Animate ReplayTip						Position	"9999 9999"			Linear 0.0 0.001
+	Animate ReplayTip						Position	"9999 9999"			Spline 0.001 0.1
+}
+
+event HudReplayTipOut
+{
+	Animate ReplayTip						Position	"9999 9999"			Linear 0.0 0.001
+	Animate ReplayTip						Position	"9999 9999"			Spline 0.001 0.1
+}
+
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup				Position	"0 -70"				Linear 0.0 0.001
+	Animate HudTournamentSetup				Position	"0 70"				Spline 0.001 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup				Position	"0 70"				Linear 0.0 0.001
+	Animate HudTournamentSetup				Position	"0 -70"				Spline 0.001 0.2
+}
+
+//=================================================================================================================================
+
+event CompetitiveGame_LowerChatWindow
+{
+}
+event CompetitiveGame_RestoreChatWindow
+{
+}
+event HudTournament_MoveChatWindow
+{
+}
+
+//=================================================================================================================================
