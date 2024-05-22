@@ -83,6 +83,17 @@
 			}		
 		}
 		
+        "DashboardDimmer"        // allows for clicking off playlist frames
+        {
+        "wide"                "f0"
+        "tall"                "f0"
+        "paintbackground"    "0"
+        "paintborder"        "0"
+        "roundedcorners"    "0"
+        //"defaultBgColor_override"        "0 0 0 255"
+        //"armedBgColor_override"        "255 255 255 255"
+        }
+		
 		"SaxxySettings"
 		{
 			"xpos"			"0"
