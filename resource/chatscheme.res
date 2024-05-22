@@ -365,50 +365,50 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"coolvetica rg"
+				"name"		"arial"
 				"tall"		"15"	[!$POSIX]
 				"tall"		"17"	[$POSIX]
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
 "antialias" "1"
 			}
 			"2"
 			{
-				"name"		"coolvetica rg"
+				"name"		"arial"
 				"tall"		"17"	[!$POSIX]
 				"tall"		"19"	[$POSIX]
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 "antialias" "1"
 			}
 			"3"
 			{
-				"name"		"coolvetica rg"
+				"name"		"arial"
 				"tall"		"18"	[!$POSIX]
 				"tall"		"20"	[$POSIX]
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 "antialias" "1"
 			}
 			"4"
 			{
-				"name"		"coolvetica rg"
+				"name"		"arial"
 				"tall"		"20"	[!$POSIX]
 				"tall"		"22"	[$POSIX]
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 "antialias" "1"
 			}
 			"5"
 			{
-				"name"		"coolvetica rg"
+				"name"		"arial"
 				"tall"		"25"	[!$POSIX]
 				"tall"		"27"	[$POSIX]
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
 "antialias" "1"

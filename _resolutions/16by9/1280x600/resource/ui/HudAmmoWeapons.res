@@ -93,7 +93,7 @@
 		"font"			"roboto24"
 		"fgcolor"		"255 255 255 0"
 		"xpos"			"0"
-		"ypos"			"s0.025"//"s0.025" for 1920x1080, "s0.05" for 1280x600, "0" for other 16:9 resolutions
+		"ypos"			"s0.05"//"s0.025" for 1920x1080, "s0.05" for 1280x600, "0" for other 16:9 resolutions
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"28"

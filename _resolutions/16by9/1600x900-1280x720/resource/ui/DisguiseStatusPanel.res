@@ -141,7 +141,7 @@
 		"xpos"			"-3"
 		"ypos"			"-39"	[$WIN32]
 		"zpos"			"-1"
-		"wide"			"32"//32 for 1920x1080, 34 for other resolutions
+		"wide"			"34"//32 for 1920x1080, 34 for other resolutions
 		"tall"			"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"

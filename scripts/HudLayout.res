@@ -1,5 +1,3 @@
-#base "../scripts/Crosshairs/Crosshairs.res"
-
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
@@ -689,6 +687,7 @@
 		"item_wide"	"135"
 		
 		"show_avatar"		"1"
+		"avatar_xpos"		"-11"
 		
 		"fade_in_time"		"0.05"
 		"fade_out_time"		"0.05"
