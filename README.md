@@ -1,7 +1,7 @@
 # Bania Hud
  tf2 hud
-![screen](https://i.imgur.com/fixgpoN.jpeg)
-[full album](https://imgur.com/a/ULn1arh)
+![screen](https://i.imgur.com/oNi2V9K.jpeg)
+[full album](https://imgur.com/a/FCVpFVy)
 # Credits:
 ### Village Green Preserver - help
 ### Chippy - BxHud
