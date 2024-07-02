@@ -289,7 +289,7 @@
 		
 		if_match
 		{
-			"ypos" "-20"
+			"ypos" "0"
 		}
 		
 		"TimePanelValue"
