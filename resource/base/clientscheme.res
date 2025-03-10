@@ -1,5 +1,3 @@
-#base "../scripts/crosshairs/font/Crosshairs.res"
-#base "base/clientscheme.res"
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -20,22 +18,6 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
-	
-	//	Health Colors for bxhud
-		"BuffedColor1"	"34 164 135 255" //default overheal colors
-		"BuffedColor2"	"0 146 118 255"	
-		
-//		"BuffedColorAlt1"	"0 145 255 255"
-//		"BuffedColorAlt2"	"0 102 255 255"
-		
-		"LowColor1"		"221 74 56 255"	
-		"LowColor2"		"147 44 31 255"			
-		
-		"HealthPickupColor"	"0 255 0 255"
-		
-		"FullUberColor1"		"34 164 135 255"	
-		"FullUberColor2"		"0 146 118 255"	
-		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -62,19 +44,20 @@ Scheme
 		"PartyMember5"	"255 118 108 255"
 		"PartyMember6"	"255 133 255 255"
 		
-		"White"				"230 230 230 255"
+		"White"				"235 235 235 255"
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
 		"Blue"				"0 28 162 140"
 		"Yellow"			"251 235 202 255"
 		"TransparentYellow"	"251 235 202 140"
+		"BrightYellow"		"251 235 0 255"
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
 		
 		"Black"				"46 43 42 255"
-		"TransparentBlack"	"0 0 0 0" //196
-		"TransparentLightBlack"	"0 0 0 0"  //196
+		"TransparentBlack"	"0 0 0 196"
+		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
 		
 		"HUDBlueTeam"		"104 124 155 127"
@@ -99,7 +82,7 @@ Scheme
 
 		"HudPanelForeground"		"123 110 59 184"
 		"HudPanelBackground"		"123 110 59 184"
-		"HudPanelBorder"			"230 230 230 102"
+		"HudPanelBorder"			"255 255 255 102"
 
 		"HudProgressBarActive"		"240 207 78 255"
 		"HudProgressBarInActive"	"140 120 73 255"
@@ -114,7 +97,7 @@ Scheme
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"117 107 94 255"
-		"TanLight"				"230 230 230 255"
+		"TanLight"				"235 226 202 255"
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -142,12 +125,6 @@ Scheme
 		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
 		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
 		
-		"HalloweenThemeColor2015_Light"	"238 126 17 255"
-		"HalloweenThemeColor2015"		"135 54 16 255"
-		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
-		"QuestStandardHighlight"	"0 255 0 255"
-		"QuestBonusHighlight"		"150 160 255 255"
-		
 		"HTMLBackground"						"95 92 101 255"
 		
 		"ItemAttribLevel"						"117 107 94 255"
@@ -162,11 +139,12 @@ Scheme
 		"ItemBundleItem"						"149 175 12 255"
 		"ItemLimitedUse"						"0 160 0 255"
 		"ItemFlags"								"117 107 94 255"
+		"ItemLimitedQuantity"					"225 209 0 255"
 		
 		"QualityColorNormal"					"178 178 178 255"
 		"QualityColorrarity1"					"77 116 85 255"
 		"QualityColorrarity2"					"141 131 75 255"
-		"QualityColorrarity3"					"112 85 15 255"
+		"QualityColorrarity3"					"204 204 250 255"
 		"QualityColorrarity4"					"134 80 172 255"
 		"QualityColorVintage"					"71 98 145 255"
 		"QualityColorUnique"					"255 215 0 255"
@@ -177,9 +155,9 @@ Scheme
 		"QualityColorStrange"					"207 106 50 255"
 		"QualityColorCompleted"					"134 80 172 255"
 		"QualityColorHaunted"					"56 243 171 255"
-		
+		"QualityColorCollectors"				"170 0 0 255"
 		"QualityColorPaintkitWeapon"			"250 250 250 255"
- 
+
 		"ItemRarityDefault"						"131 126 119 255"
 		"ItemRarityCommon"						"176 195 217 255"
 		"ItemRarityUncommon"					"94 152 217 255"
@@ -196,18 +174,25 @@ Scheme
 		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
 		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
 		
- 		"QualityColorNormal_GreyedOut"			"44 44 44 255"
- 		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
- 		"QualityColorrarity2_GreyedOut"			"35 33 19 255"
- 
- 		"QualityColorCompleted_GreyedOut"		"34 20 43 255"
- 		"QualityColorHaunted_GreyedOut"			"14 61 43 255"
- 		"QualityColorCollectors_GreyedOut"		"60 0 0 255"
- 		
- 		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"	
+		"QualityColorNormal_GreyedOut"			"44 44 44 255"
+		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
+		"QualityColorrarity2_GreyedOut"			"35 33 19 255"
+		"QualityColorrarity3_GreyedOut"			"51 51 62 255"
+		"QualityColorrarity4_GreyedOut"			"36 20 43 255"
+		"QualityColorVintage_GreyedOut"			"18 25 36 255"
+		"QualityColorUnique_GreyedOut"			"64 54 0  255"
+		"QualityColorCommunity_GreyedOut"		"28 44 19 255"
+		"QualityColorDeveloper_GreyedOut"		"41 4  30  255"
+		"QualityColorSelfMade_GreyedOut"		"28 44 74 255"
+		"QualityColorCustomized_GreyedOut"		"71 98 19 255"
+		"QualityColorStrange_GreyedOut"			"52 27 13 255"
+		"QualityColorCompleted_GreyedOut"		"34 20 43 255"
+		"QualityColorHaunted_GreyedOut"			"14 61 43 255"
+		"QualityColorCollectors_GreyedOut"		"60 0 0 255"
+		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 		
 		"SaleGreen"								"76 107 34 255"
-		
+
 		"LightRed"								"200 80 60 255"
 		"LighterRed"							"220 100 80 255"
 		"LighterDarkBrown"						"59 54 48 255"
@@ -470,6 +455,7 @@ Scheme
 	{
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
+		"ButtonsSC"		"materials/vgui/fonts/buttons_sc.vbf"
 	}
 
 
@@ -482,467 +468,64 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-
-		"DamageFont"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"21"
-				"antialias"	"1"
-				"outline"	"1"
-			}
-		}
-		"DamageFontSmall"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"17"
-				"antialias"	"1"
-				"outline"	"1"
-			}
-		}
-		"roboto10"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"10"
-				"antialias"	"1"
-			}
-		}
-		"robotoreg10"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"10"
-				"antialias"	"1"
-			}
-		}
-		"roboto11"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"11"
-				"antialias"	"1"
-			}
-		}
-		"roboto12"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"12"
-				"antialias"	"1"
-			}
-		}
-		"robotoreg12"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"12"
-				"antialias"	"1"
-			}
-		}
-		"roboto14"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"14"
-				"antialias"	"1"
-			}
-		}
-		"roboto14s"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"14"
-				"antialias"	"1"
-"dropshadow" "2"
-			}
-		}
-		"roboto12s"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"12"
-				"antialias"	"1"
-"dropshadow" "2"
-			}
-		}
-		"robotoreg14"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"14"
-				"antialias"	"1"
-			}
-		}
-		"roboto16"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"16"
-				"antialias"	"1"
-			}
-		}
-		"robotoreg16"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"16"
-				"antialias"	"1"
-			}
-		}
-		"roboto18"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"18"
-				"antialias"	"1"
-			}
-		}
-		"roboto20"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"20"
-				"antialias"	"1"
-			}
-		}
-		"roboto20c"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"20"
-				"antialias"	"1"
-
-
-			}
-		}
-				"roboto26c"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"26"
-				"antialias"	"1"
-
-			}
-		}
-		"roboto16c"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"16"
-				"antialias"	"1"
-
-
-			}
-		}
-		"roboto40c"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"40"
-				"antialias"	"1"
-
-
-			}
-		}
-		"roboto21"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"21"
-				"antialias"	"1"
-			}
-		}
-		"roboto24"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"24"
-				"antialias"	"1"
-			}
-		}
-		"roboto26"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"26"
-				"antialias"	"1"
-			}
-		}
-		"mainmenu"
-		{
-			"1"
-			{
-				"name"		 "SquareFont"
-				"tall"		"22"
-"weight" "1000"
-"dropshadow" "2"
-			}
-		}
-		"roboto28"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"28"
-				"antialias"	"1"
-			}
-		}
-		"roboto30"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"30"
-				"antialias"	"1"
-			}
-		}
-		"roboto32"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"32"
-				"antialias"	"1"
-			}
-		}
-		"roboto34"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"34"
-				"antialias"	"1"
-			}
-		}
-		"roboto36"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"36"
-				"antialias"	"1"
-			}
-		}
-		"roboto40"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"40"
-				"antialias"	"1"
-			}
-		}
-		"robotoreg40"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"40"
-				"antialias"	"1"
-			}
-		}
-		"roboto48"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"48"
-				"antialias"	"1"
-			}
-		}
-		"roboto24ds"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"24"
-				"antialias"	"1"
-			}
-		}
-		"damage"
-		{
-			"1"
-			{
-				"name"	"Arial Black"
-				"tall"		"24"
-"dropshadow" "1"
-				"antialias"	"1"
-			}
-		}
-		"roboto16ds"
-		{
-			"1"
-			{
-				"name"	"Arial Black"
-				"tall"		"16"
-				"antialias"	"1"
-"dropshadow" "1"
-			}
-		}
-		"roboto12ds"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"12"
-				"antialias"	"1"
-"dropshadow" "1"
-			}
-		}
-		"roboto36ds"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"36"
-				"antialias"	"1"
-			}
-		}
-		"roboto32ds"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"32"
-				"antialias"	"1"
-			}
-		}
-		"roboto28ds"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"28"
-				"antialias"	"1"
-			}
-		}
-		"roboto52ds"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"52"
-				"antialias"	"1"
-			}
-		}
-		"roboto56ds"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"56"
-				"antialias"	"1"
-			}
-		}
-		"roboto70ds"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"70"
-				"antialias"	"1"
-			}
-		}
-		"roboto100ds"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"100"
-				"antialias"	"1"
-			}
-		}
-		"roboto88ds"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"88"
-				"antialias"	"1"
-			}
-		}
 		"Default"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"13"
-				"weight"	"400"
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"18"
-				"weight"	"400"
+				"name"		"Verdana"
+				"tall"		"13"	[$WIN32]
+				"tall"		"20"	[$X360]
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"15"
-				"weight"	"400"
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"21"
-				"weight"	"400"
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"		 "geforce_edit"
-				"tall"		"25"
-				"weight"	"400"
+				"name"		"Verdana"
+				"tall"		"9"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"13"
+				"name"		"Verdana"
+				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"400"
+				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"13"
+				"name"		"Arial"
+				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"400"
+				"weight"		"800"
 			}
 
 			
@@ -951,42 +534,42 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Tahoma"
 				"tall"		"12"
-				"weight"	"400"
+				"weight"	"500"
 				"underline" "1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"12"
+				"name"		"Arial"
+				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"400"
+				"weight"		"800"
 			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"13"
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"14"
+				"name"		"Verdana"
+				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"15"
+				"name"		"Verdana"
+				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -994,26 +577,25 @@ Scheme
 			}
 			"4"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"21"
+				"name"		"Verdana"
+				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"		 "geforce_edit"
-				"tall"		"23"
+				"name"		"Verdana"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"13"
+				"name"		"Arial"
+				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
@@ -1024,24 +606,24 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"13"
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"14"
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"13"
+				"name"		"Verdana"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -1049,20 +631,19 @@ Scheme
 			}
 			"4"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"15"
+				"name"		"Verdana"
+				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"		 "geforce_edit"
-				"tall"		"17"
+				"name"		"Verdana"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -1070,60 +651,59 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"18"
-				"weight"	"400"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"21"
-				"weight"	"400"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"22"
-				"weight"	"400"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"28"
-				"weight"	"400"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"		 "geforce_edit"
-				"tall"		"30"
-				"weight"	"400"
+				"name"		"Verdana"
+				"tall"		"18"
+				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"400"
+				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Arial"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
-				"weight"		"400"
+				"weight"		"800"
 			}
 		}
 		CenterPrintText
@@ -1131,10 +711,10 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		 "geforce_edit" [!$OSX]
+				"name"		"Trebuchet MS" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"18"
-				"weight"	"400"
+				"weight"	"900"
 				"antialias" "1"
 				"additive"	"1"
 			}
@@ -1144,9 +724,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"6"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1155,99 +735,98 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"12"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"13"	[$WIN32]
 				"tall"		"23"	[$X360]
-				"weight"	"400"
+				"weight"	"700"
 				"yres"	"600 767"
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"14"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"20"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"	"1024 1199"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"		 "geforce_edit"
-				"tall"		"24"
-				"weight"	"400"
-				"yres"	"1200 10000"
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"700"
+				"antialias"	"1"
 			}
 		}
 		"HudFontGiant"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"24"
 				"tall_lodef"	"80"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 				"yres"		"480 599"
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"32"
 				"tall_hidef"	"120"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 				"yres"		"600 767"
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"44"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 				"yres"		"768 1023"
 			}
 			"4"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"48"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 				"yres"		"1024 1199"
 			}
 			"5"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"52"
-				"weight"	"400"
+				"name"		"TF2"
+				"tall"		"24"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"44"
 				"tall_lodef"	"52"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1257,10 +836,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"35"
 				"tall_lodef"	"40"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1270,10 +849,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"36"
 				"tall_hidef"	"48"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1282,9 +861,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"30"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1293,9 +872,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"30"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1304,10 +883,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"24"
 				"tall_lodef"		"28"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1316,9 +895,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"24"
-				"weight"	"400"
+				"weight"	"500"
+				"yres"		"1 1199"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"2" // Misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1327,9 +915,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"24"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1338,9 +926,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"18"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1349,11 +937,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1362,11 +950,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1375,10 +963,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"tall_lodef"	"16"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -1387,9 +975,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"16"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1398,9 +986,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"14"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1409,9 +997,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"14"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 				"dropshadow"	"1"
@@ -1421,9 +1009,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"12"
-				"weight"	"400"
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -1432,9 +1020,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"12"
-				"weight"	"400"
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -1444,9 +1032,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"12"
-				"weight"	"400"
+				"name"		"TF2 Build"
+				"tall"		"11"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1455,9 +1043,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"4"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1466,9 +1054,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"10"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1477,9 +1065,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"16"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1488,7 +1076,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1499,7 +1087,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1510,7 +1098,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1521,7 +1109,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1534,9 +1122,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"12"
-				"weight"	"400"
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1573,15 +1161,47 @@ Scheme
 				"scaley"	"0.4"
 			}
 		}
+		GameUIButtonsSteamController
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.5"
+				"scalex_lodef"		"0.75"
+				"scaley"	"0.5"
+				"scaley_lodef"		"0.75"
+			}
+		}
+		GameUIButtonsSteamControllerSmall
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.25"
+				"scaley"	"0.25"
+			}
+		}
+		GameUIButtonsSteamControllerSmallest
+		{
+			"1"
+			{
+				"bitmap"	"1"
+				"name"		"ButtonsSC"
+				"scalex"	"0.15"
+				"scaley"	"0.15"
+			}
+		}
 		"GameUIButtonText"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1590,11 +1210,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1603,9 +1223,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"8"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1614,9 +1234,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"9"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1625,11 +1245,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1638,10 +1258,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"7"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1650,9 +1270,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"15"
-				"weight"	"400"
+				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"1 599"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1660,10 +1280,10 @@ Scheme
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
-				"weight"	"400"
+				"weight"	"700"
 				"antialias" 	"1"
 				"yres"		"600 767"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1671,25 +1291,25 @@ Scheme
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"18"
-				"weight"	"400"
+				"weight"	"900"
 				"antialias" 	"1"
 				"yres"		"768 1023"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"4"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"21"
-				"weight"	"400"
+				"weight"	"900"
 				"antialias" 	"1"
 				"yres"		"1024 1199"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"5"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1709,7 +1329,7 @@ Scheme
 			}
 			"1"	[$X360]
 			{
-				"name"		 "geforce_edit"
+				"name"		"Tahoma"
 				"tall"		"18"
 				"weight"	"200"
 				"outline"	"1"
@@ -1744,7 +1364,7 @@ Scheme
 			{
 				"name"		"Courier New"
 				"tall"		"90"
-				"weight"	"400"
+				"weight"	"900"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
@@ -1763,7 +1383,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"   "geforce_edit"
+				"name"  "Verdana"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1774,47 +1394,60 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"22"
-				"antialias"	"1"
+				"name"		"Tahoma"
+				"tall"		"24"
+				"tall_hidef"	"32"
+				"weight"	"500"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"22"
-				"antialias"	"1"
+				"name"		"Tahoma"
+				"tall"		"24"
+				"tall_hidef"	"32"
+				"weight"	"500"
+				"italic"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"22"
-				"antialias"	"1"
+				"name"		"Tahoma"
+				"tall"		"24"
+				"tall_hidef"	"32"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"22"
-				"antialias"	"1"
+				"name"		"Tahoma"
+				"tall"		"24"
+				"tall_hidef"	"32"
+				"weight"	"900"
+				"italic"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Small"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"22"
-				"antialias"	"1"
+				"name"		"Tahoma"
+				"tall"		"16"
+				"tall_hidef"	"24"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
+
 		// this is the symbol font
 		"Marlett"
 		{
@@ -1842,31 +1475,31 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"24"
 				"antialias" "1"
-				"weight"	"400"
+				"weight"	"500"
 			}
 		}
 		"MenuClassBuckets"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"12"
+				"name"		"TF2 Secondary"
+				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
-				"weight"	"400"
+				"weight"	"500"
 			}
 		}
 		"MenuKeys"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"12"
 				"antialias" "1"
-				"weight"	"400"
+				"weight"	"500"
 			}
 		}
 		
@@ -1874,11 +1507,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"13"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
-				"weight"	"400"
+				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -1888,14 +1521,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"			 "geforce_edit"
+				"name"			"TF2 Professor"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
 				"antialias"		"1" 
 				"custom"		"1" [$OSX]
-				"weight"		"400"
-				"weight_lodef"	"400"
+				"weight"		"500"
+				"weight_lodef"	"800"
 				"weight_hidef"	"1000"
 			}
 		}
@@ -1903,14 +1536,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"			 "geforce_edit"
+				"name"			"TF2 Professor"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
-				"weight"		"400"
-				"weight_lodef"	"400"
+				"weight"		"500"
+				"weight_lodef"	"800"
 				"weight_hidef"	"1000"
 			}
 		}
@@ -1918,40 +1551,27 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Professor"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
-				"weight"	"400"
+				"weight"	"500"
 			}
 		}
 		"ChalkboardText"
 		{
 			"1"
 			{
-				"name"			 "geforce_edit"
+				"name"			"TF2 Professor"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
 				"tall_hidef"	"32"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
-				"weight"		"400"
-			}
-		}
-		"ScoreboardVerySmall"
-		{
-			"1"
-			{
-				"name"		 "geforce_edit"
-				"tall"		"10"
-				"tall_hidef"	"11"
-				"tall_lodef"	"15"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"weight"		"500"
 			}
 		}
 		"ScoreboardSmallest"
@@ -1965,14 +1585,27 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"ScoreboardVerySmall"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"tall_hidef"	"10"
+				"tall_lodef"	"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ScoreboardSmall"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"12"
-				"tall_hidef"	"13"
-				"tall_lodef"	"15"
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"tall_hidef"	"12"
+				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1982,9 +1615,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"15"
-				"weight"	"400"
+				"name"		"TF2"
+				"tall"		"14"
+				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
@@ -1994,9 +1627,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"21"
-				"weight"	"400"
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
@@ -2006,11 +1639,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
-				"weight"	"400"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamCountNew"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamNameNew"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
@@ -2020,22 +1677,34 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
-				"weight"	"400"
+				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
 		}
 
+		"ScoreboardTeamScoreNew"
+ 		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"36"
+				"tall_hidef"	"48"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ScoreboardTeamScore"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -2045,7 +1714,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -2055,7 +1724,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -2064,7 +1733,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -2073,7 +1742,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -2081,12 +1750,11 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
 		"MatchSummaryTeamScores"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2098,7 +1766,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2109,7 +1777,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -2120,53 +1788,29 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		
 		"ControlPointTimer"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"friendname"
-		{
-			"1"
-			{
-				"name"		 "century schoolbook"
-				"tall"		"10"
-"weight" "400"
-"dropshadow" "2"
-				"antialias" "1"
-			}
-		}
-		"frienddesc"
-		{
-			"1"
-			{
-				"name"		 "century schoolbook"
-				"tall"		"7"
-"weight" "200"
-"dropshadow" "2"
-				"antialias" "1"
-
-			}
-		}
 		"ControlPointTimerSmaller"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2178,7 +1822,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -2192,41 +1836,41 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"12"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"0"
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"13"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"0"
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"14"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"0"
 			}
 			"4"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"20"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"0"
 			}
 			"5"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"24"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"0"
 			}
@@ -2235,41 +1879,41 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"12"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"13"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"14"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"20"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"24"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
 			}
@@ -2278,41 +1922,41 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"10"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"10"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"13"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"14"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"15"
-				"weight"	"400"
+				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
 			}
@@ -2335,12 +1979,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
-				"weight_lodef"	"400"
+				"weight_lodef"	"600"
 				"antialias"		"1"
 			}
 		}			
@@ -2348,9 +1992,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"12"
-				"weight"	"400"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
 				"antialias" 	"1"
@@ -2360,9 +2004,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"8"
-				"weight"	"400"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
 				"antialias" 	"1"
@@ -2373,7 +2017,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -2386,7 +2030,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -2400,10 +2044,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"12"  [!$OSX]
+				"name"		"Verdana"
+				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
-				"weight"	"400"
+				"weight"	"800"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -2413,95 +2057,95 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"36"
 				"tall_lodef"		"28"
-				"weight"	"400"
+				"weight"	"500"
 			}
 		}
 		MatchmakingDialogSessionOptionsTitle
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"30"
 				"tall_lodef"		"22"
-				"weight"	"400"
+				"weight"	"500"
 			}
 		}
 		MatchmakingDialogMenuLarge
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"28"
 				"tall_lodef"	"24"
-				"weight"	"400"
+				"weight"	"500"
 			}
 		}
 		MatchmakingDialogMenuBrowserHostname
 		{
 			"1"			// brower item hostname
 			{
-				"name"		 "geforce_edit"
+				"name"		"Trebuchet MS"
 				"tall"		"22"
-				"weight"	"400"
+				"weight"	"900"
 			}
 		}
 		MatchmakingDialogMenuBrowserDetails
 		{
 			"1"			// browser item players and map name
 			{
-				"name"		 "geforce_edit"
+				"name"		"Trebuchet MS"
 				"tall"		"18"
-				"weight"	"400"
+				"weight"	"900"
 			}
 		}		
 		MatchmakingDialogMenuMedium
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"22"
-				"weight"	"400"
+				"weight"	"500"
 			}
 		}
 		MatchmakingDialogMenuMediumSmall
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"weight"	"400"
+				"weight"	"500"
 			}
 		}
 		MatchmakingDialogMenuSmall
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"22"
 				"tall_lodef"		"18"
-				"weight"	"400"
+				"weight"	"900"
 			}
 		}
 		MatchmakingDialogMenuSmallest
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"18"
 				"tall_lodef"		"18"
-				"weight"	"400"
+				"weight"	"900"
 			}
 		}
 		RankingDialogHeaders
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"15"
-				"weight"	"400"
+				"weight"	"900"
 			}
 		}
 		
@@ -2509,9 +2153,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"36"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2520,9 +2164,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"12"
-				"weight"	"400"
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"600"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -2531,7 +2175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2542,9 +2186,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Trebuchet MS"
 				"tall"		"14"
-				"weight"	"400"
+				"weight"	"900"
 				"antialias" "1"
 			}
 		}
@@ -2552,9 +2196,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"10"
-				"weight"	"400"
+				"weight"	"600"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -2563,9 +2207,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"10"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -2574,7 +2218,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2586,7 +2230,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2595,7 +2239,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2604,7 +2248,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2617,17 +2261,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall" 		 "12"
-				"additive"	 "0"
-				"antialias"	 "1"
+				"name"		"TF2 Build"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"ItemFontNameSmall"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2638,7 +2283,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2649,7 +2294,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2660,7 +2305,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2671,7 +2316,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -2681,7 +2326,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2692,7 +2337,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2703,7 +2348,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2715,7 +2360,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2726,20 +2371,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
 		"AchievementTracker_Desc"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2750,8 +2394,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"7"
+				"name"		"Verdana"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2761,8 +2406,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"7"
+				"name"		"Verdana"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"antialias" 	"1"
 			}
@@ -2771,20 +2417,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"7"
+				"name"		"Verdana"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
 		"ItemTrackerScore_InGame"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2795,7 +2441,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2804,7 +2451,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2813,7 +2461,8 @@ Scheme
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"	
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2826,7 +2475,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2835,7 +2485,8 @@ Scheme
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2844,7 +2495,8 @@ Scheme
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2857,7 +2509,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2869,7 +2522,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Professor"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -2881,7 +2534,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2890,7 +2543,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2899,7 +2552,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2912,7 +2565,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2922,7 +2575,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2932,7 +2585,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2946,7 +2599,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2955,7 +2608,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2964,7 +2617,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2977,7 +2630,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2989,7 +2642,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -3001,8 +2654,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"10"
+				"name"		"TF2 Secondary"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -3013,7 +2666,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -3024,7 +2677,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -3035,7 +2688,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -3056,7 +2709,6 @@ Scheme
 			}
 		}
 		
-		
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//
@@ -3064,7 +2716,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3072,7 +2724,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3080,7 +2732,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3089,7 +2741,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3098,7 +2750,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3110,9 +2762,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"12"
-				"weight"	"400"
+				"name"		"TF2 Secondary"
+				"tall"		"11"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -3121,7 +2773,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3129,7 +2781,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3137,7 +2789,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3146,7 +2798,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3155,7 +2807,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Verdana"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3164,7 +2816,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		 "geforce_edit"
+				"name"		"Arial"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -3174,9 +2826,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
-				"tall"		"12"
-				"weight"	"400"
+				"name"		"TF2 Build"
+				"tall"		"11"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3185,9 +2837,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"14"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3196,11 +2848,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3209,9 +2861,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"24"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3220,11 +2872,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3237,9 +2889,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"14"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3248,9 +2900,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"24"
-				"weight"	"400"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -3260,35 +2912,35 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"15"
-				"weight"	"400"
+				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
 		}
+
 		"MMenuPlayListDesc"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Secondary"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
 		}
-		
+
 		"XPSource"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
 
@@ -3296,21 +2948,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
-				"custom"	"1"
 			}
 		}
-		
+
 		"MapVotesPercentage"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"TF2 Build"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -3318,12 +2969,13 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
+
 		"QuestMap_Small_Blur"
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -3336,7 +2988,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"		
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -3348,7 +3001,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -3360,7 +3014,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -3372,7 +3027,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "geforce_edit"
+				"name"		"OCR A Extended" [$WINDOWS]
+				"name"		"ocra"
 				"tall"		"30"
 				"weight"	"400"
 				"additive"	"0"
@@ -3638,13 +3294,14 @@ Scheme
 				
 		MainMenuSubButtonBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 1 0"
+			"proportional_scalar" "0.667"
 			Left
 			{
 				"1"
 				{
 					"color" "TanDarker"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -3653,7 +3310,7 @@ Scheme
 				"1"
 				{
 					"color" "TanDarker"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 		}
@@ -3720,8 +3377,8 @@ Scheme
 			"image"					"../hud/color_panel_brown"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -3753,8 +3410,8 @@ Scheme
 			"image"					"../hud/color_panel_red"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderRedBGMoreOpaque
 		{
@@ -3775,8 +3432,8 @@ Scheme
 			"image"					"../hud/color_panel_blu"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderBlueBGMoreOpaque
 		{
@@ -5114,7 +4771,7 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
-		
+
 		StoreItemBorder
 		{
 			"inset" "0 0 1 1"
@@ -5235,7 +4892,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		MainMenuButtonGlow
 		{
 			"bordertype"			"scalable_image"
@@ -5266,13 +4923,14 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
+
 			"image"					"alert_rect"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_height" 	"4"
 		}
+
 		NotificationHighPriority
 		{
 			"bordertype"			"scalable_image"
@@ -5284,6 +4942,7 @@ Scheme
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"
 		}
+
 		MainMenuButtonDepressed
 		{
 			"bordertype"			"scalable_image"
@@ -5441,7 +5100,7 @@ Scheme
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
-		
+
 		StoreHighlightedBorder
 		{
 			"bordertype"			"scalable_image"
@@ -5595,7 +5254,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		SortCategoryBorder
 		{
 			"inset" "0 0 1 1"
@@ -5661,6 +5320,7 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+
 		ReplayFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
@@ -5753,7 +5413,7 @@ Scheme
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{
 		}
-		
+
 		QuestStatusBorder
 		{
 			"bordertype"			"scalable_image"
@@ -5813,7 +5473,7 @@ Scheme
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
-		
+
 		OuterShadowBorder
 		{
 			"bordertype"			"scalable_image"
@@ -5837,7 +5497,7 @@ Scheme
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
 		}
-		
+
 		CYOAScreenBorder
 		{
 			"bordertype"			"scalable_image"
@@ -6063,6 +5723,9 @@ Scheme
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	// Range specificies the characters to be used from the custom font before falling back to a default font
+	// characters in the range not specificed in the font will appear empty
+	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
@@ -6122,17 +5785,75 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}
-		"7" "resource/ocra.ttf"
-		"8" 
+		}			
+		"7"
 		{
-			"font" "resource/fonts/GeForce-Bold_edit.ttf"
-			"name" "geforce_edit"
+			"font"	"resource/ocra.ttf"
+			"name" "ocra"
+			"turkish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"german"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"french"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x007E"
+			}
 		}
-				"9" 
-		{
-			"font" "resource/fonts/square.ttf"
-			"name" "SquareFont"
-		}
+		"10"		"resource/linux_fonts/DejaVuSans.ttf"
+		"11"		"resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"12"		"resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"13"		"resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"14"		"resource/linux_fonts/LiberationSans-Regular.ttf"
+		"15"		"resource/linux_fonts/LiberationSans-Bold.ttf"
+		"16"		"resource/linux_fonts/LiberationMono-Regular.ttf"
+		"17"		"resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }

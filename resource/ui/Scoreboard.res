@@ -23,6 +23,8 @@
 		"ping_width"		"20"
 		"killstreak_width"	"12"
 		"killstreak_image_width" "12"
+		"medal_width" "10"
+		"medal_column_width" "18"
 	}
 	
 	"ScoreboardBG"

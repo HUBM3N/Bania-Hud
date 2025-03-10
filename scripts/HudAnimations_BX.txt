@@ -5,7 +5,7 @@ Animate HudScope Position "9999 9999" Linear 0.0 0.0
 
 event DamagedPlayer
 {
-RunEvent ScopeRemoval 0.0
+//RunEvent ScopeRemoval 0.0
 Animate Hand Alpha "255" Linear 0.0 0.0
 Animate Hand Alpha "0" Linear 1.4 0.0
 Animate damage position "-41 r78" Linear 0.0 1.4
