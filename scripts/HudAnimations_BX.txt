@@ -29,11 +29,6 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthValue 	fgcolor		"15 15 15 255"				Linear 0.6 0.2
 	Animate	PlayerStatusHealthValue1 	fgcolor		"25 175 225 255"			Linear 0.0 0.0
 
-
-
-
-	
-	
 	RunEvent HudHealthBonusPulseLoop		0.4
 }
 
@@ -61,8 +56,6 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthValue1 	fgcolor		"225 50 30 255"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue 	fgcolor		"245 225 220 255"				Linear 0.0 0.0
 
-
-	
 	RunEvent HudHealthDyingPulseLoop		0.0
 }
 
@@ -80,8 +73,6 @@ event HudHealthDyingPulseStop
 	Animate	PlayerStatusHealthValueS1 	bgcolor		"15 15 15 128"				Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue1 	fgcolor		"230 230 230 255"			Linear 0.0 0.0
 	Animate	PlayerStatusHealthValue 	fgcolor		"230 230 230 255"			Linear 0.0 0.0
-
-
 
 }
 
@@ -274,3 +265,30 @@ event HudTournament_MoveChatWindow
 }
 
 //=================================================================================================================================
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  1 0
+	SetVisible SkullPanel  1 0
+	SetVisible respawntime  1 0
+
+	Animate DeathPanel ypos 19 Accel 0 0.2
+	Animate SkullPanel wide 10 Accel 0 0.1
+	Animate SkullPanel tall 10 Accel 0 0.1
+	Animate SkullPanel xpos 4 Accel 0 0.1
+	Animate SkullPanel ypos 9 Accel 0 0.1
+	Animate respawntime ypos 21 Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+	Animate DeathPanel ypos 0 Accel 0 0.2
+	Animate SkullPanel wide 0 Accel 0 0.1
+	Animate SkullPanel tall 0 Accel 0 0.1
+	Animate SkullPanel xpos 10 Accel 0 0.1
+	Animate SkullPanel ypos 15 Accel 0 0.1
+	Animate respawntime ypos 0 Accel 0 0.2
+
+	SetVisible DeathPanel  0 0.2
+	SetVisible SkullPanel  0 0.2
+	SetVisible respawntime 0 0.2
+}

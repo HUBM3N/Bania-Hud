@@ -117,8 +117,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"44"
-		"ypos"			"-3"	[$WIN32]
+		"xpos"			"45"
+		"ypos"			"-31"	[$WIN32]
 		"wide"			"32"
 		"tall"			"100"
 		"visible"		"1"
@@ -138,8 +138,8 @@
 		"ControlName"	"Label"
 		"fieldName"		"hs"
 		"font"			"roboto16"
-		"xpos"			"-3"
-		"ypos"			"-39"	[$WIN32]
+		"xpos"			"-4"
+		"ypos"			"-11"	[$WIN32]
 		"zpos"			"-1"
 		"wide"			"32"//32 for 1920x1080, 34 for other resolutions
 		"tall"			"18"

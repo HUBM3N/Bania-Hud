@@ -67,18 +67,6 @@
 		"draw_corner_width"		"0"
 		"draw_corner_height" 	"0"
 	}
-	"anchor"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"anchor"
-		"xpos"			"c0"		[$WIN32]
-		"ypos"			"0"   	[$WIN32]
-		"zpos"			"2"
-		"wide"			"1"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"	
-	}
 	
 	"TargetNameLabel"
 	{	
@@ -94,7 +82,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"0"
-		"labelText"			"#TF_LoadCommentary"
+		"labelText"			"%targetname%"
 		"textAlignment"		"west"
 		"textInsetX"		"10"
 		"dulltext"			"0"
@@ -118,7 +106,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"#TF_LoadCommentary"
+		"labelText"			"%targetname%"
 		"textAlignment"		"west"
 		"textInsetX"		"10"
 		"dulltext"			"0"
@@ -153,9 +141,9 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"SpectatorGUIHealth"
-		"xpos"						"-2"
-		"ypos"						"12"
-		"wide"						"64"
+		"xpos"						"0"
+		"ypos"						"9"
+		"wide"						"58"
 		"tall"						"32"
 		"visible"					"1"
 		"enabled"					"1"	
@@ -164,6 +152,41 @@
 		"TFFont"					"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"					"HudOffWhite"
+		"PlayerStatusHealthValue1"
+	{
+		"ControlName"		"CAutoFittingLabel"
+		"fieldName"			"PlayerStatusHealthValue1"
+		"font"				"roboto28ds"
+		"xpos"				"0"
+		"ypos"				"1"
+		"zpos"				"5"
+		"wide"				"f0"
+		"tall"				"32"
+		"visible"			"1"
+		"enabled"			"1"
+		"textAlignment"		"center"	
+		"labeltext"			"#TF_Controller_Title"
+		"fgcolor_override"	"230 230 230 255"
+		"proportionaltoparent"	"1"
+	}
+	"PlayerStatusHealthValueS"
+	{
+		"ControlName"		"CAutoFittingLabel"
+		"fieldName"			"PlayerStatusHealthValueS"
+		"font"				"roboto28ds"
+		"xpos"				"-1"
+		"ypos"				"-1"
+		"zpos"				"4"
+		"wide"				"f0"
+		"tall"				"32"
+		"visible"			"1"
+		"enabled"			"1"
+		"textAlignment"		"center"	
+		"labeltext"			"#TF_Controller_Title"
+		"fgcolor_override"	"15 15 15 255"
+		"proportionaltoparent"	"1"
+		"pin_to_sibling" "PlayerStatusHealthValue1"
+	}
 	}
 	
 	"KillAnchor"

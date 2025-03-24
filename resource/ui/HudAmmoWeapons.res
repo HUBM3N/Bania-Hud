@@ -5,7 +5,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"HudWeaponAmmoBG"
 		"xpos"			"999999"
-"visible" "0"		
+        "visible" "0"		
 	}
 
 	"HudWeaponLowAmmoImage"
@@ -39,7 +39,6 @@
 		"bgcolor_override" "0 0 0 0"
 		"paintbackgroundtype" "2"
 		"auto_wide_tocontents" "1"
-
 	}		
 	"AmmoInClipShadow"
 	{
@@ -81,8 +80,8 @@
 		"textinsety"	"5"
 		"labelText"		"%AmmoInReserve%"	
 		"pin_to_sibling" "ammoinclip"
-        "pin_corner_to_sibling"  "PIN_CENTER_LEFT"
-        "pin_to_sibling_corner"  "PIN_CENTER_RIGHT"
+        "pin_corner_to_sibling"  "PIN_TOPLEFT"
+        "pin_to_sibling_corner"  "PIN_TOPRIGHT"
 		"auto_wide_tocontents" "1"
 
 	}		
@@ -93,7 +92,7 @@
 		"font"			"roboto24"
 		"fgcolor"		"255 255 255 0"
 		"xpos"			"0"
-		"ypos"			"s0.025"//"s0.025" for 1920x1080, "s0.05" for 1280x600, "0" for other 16:9 resolutions
+		"ypos"			"0"//"s0.025" for 1920x1080, "s0.05" for 1280x600, "0" for other 16:9 resolutions
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"28"
@@ -103,13 +102,12 @@
 		"textinsetx"	"14"
 		"labelText"		"%AmmoInReserve%"	
 		"pin_to_sibling" "AmmoInClipShadow"
-		"pin_corner_to_sibling"  "PIN_CENTER_LEFT"
-        "pin_to_sibling_corner"  "PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling"  "PIN_TOPLEFT"
+        "pin_to_sibling_corner"  "PIN_TOPRIGHT"
 		"auto_wide_tocontents" "1"
 		"bgcolor_override" "15 15 15 128"	
 		"paintbackgroundtype" "2"
 		"RoundedCorners" "10"
-
 	}									
 	"AmmonoClip"
 	{
@@ -130,7 +128,6 @@
 		"bgcolor_override" "0 0 0 0"
 		"paintbackgroundtype" "2"
 		"auto_wide_tocontents" "1"
-
 	}		
 	"AmmonoClipShadow"
 	{

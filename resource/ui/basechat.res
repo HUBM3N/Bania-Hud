@@ -6,14 +6,13 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"0"	[$WIN32]
-		"xpos"			"42"	[$X360]
-		"ypos"			"0"
+		"xpos"			"-11"	[$WIN32]
+		"ypos"			"24"
 		"ypos_hidef"		"245"
 		"wide"	 		"280"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"0"
-"bgcolor_override" "0 0 0 0"
+		"bgcolor_override" "0 0 0 0"
 	}
 
 	ChatInputLine

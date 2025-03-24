@@ -28,51 +28,18 @@
 	{
 		"ControlName"		"CAutoFittingLabel"
 		"fieldName"			"PlayerStatusHealthValue1"
-		"font"				"roboto28ds"
+		"font"				"roboto16"
 		"xpos"				"0"
-		"ypos"				"-2"
+		"ypos"				"0"
 		"zpos"				"5"
-		"wide"				"fp0"
-		"tall"				"f2"
+		"wide"				"f0"
+		"tall"				"40"
 		"visible"			"1"
 		"enabled"			"1"
 		"textAlignment"		"center"	
 		"labeltext"			"#TF_Controller_Title"
 		"fgcolor_override"	"230 230 230 255"
-			"proportionaltoparent"	"1"
-
-
-			"fonts"
-			{
-				"0"		"roboto28ds"
-				"1"		"roboto16"
-			}
-	}
-	"PlayerStatusHealthValueS"
-	{
-		"ControlName"		"CAutoFittingLabel"
-		"fieldName"			"PlayerStatusHealthValueS"
-		"font"				"roboto28ds"
-		"xpos"				"-1"
-		"ypos"				"-1"
-		"zpos"				"4"
-		"wide"				"fp0"
-		"tall"				"f2"
-		"visible"			"1"
-		"enabled"			"1"
-		"textAlignment"		"center"	
-		"labeltext"			"#TF_Controller_Title"
-		"fgcolor_override"	"15 15 15 255"
-			"proportionaltoparent"	"1"
-			"pin_to_sibling" "PlayerStatusHealthValue1"
-
-
-
-			"fonts"
-			{
-				"0"		"roboto28ds"
-				"1"		"roboto0"
-			}
+		"proportionaltoparent"	"1"
 	}
 	"PlayerHealthBG"
 	{

@@ -183,7 +183,7 @@ Scheme
 				"tall"         "10"
 				"weight"     "200"
 				"range"         "0x0000 0x017F"
-				"outline"     "1"
+				"outline"     "0"
                 "dropshadow" "1"
 				"additive"     "0"
 				"antialias"  "0"
