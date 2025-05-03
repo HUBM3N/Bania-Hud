@@ -1022,49 +1022,49 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c148"
-		"ypos"			"28"
-		"zpos"			"16"
-		"wide"			"0"//32
+		"xpos"			"210"
+		"ypos"			"r60"
+		"zpos"			"999"
+		"wide"			"32"//32
 		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"SubImage"
+		"a1"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"16"
+			"fieldName"		"a1"
+			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"3"
-			"wide"			"16"
-			"tall"			"16"
+			"zpos"			"0"
+			"wide"			"32"
+			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"glyph_achievements"
 			"scaleImage"	"1"
-			"drawcolor" "210 125 33 255"
+			"drawcolor" "white"
 		}				
 		
 		"Notifications_CountLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_CountLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"HudFontMediumBold"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
-			"xpos"			"16"
+			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"4"
-			"wide"			"16"
-			"tall"			"16"
+			"zpos"			"3"
+			"wide"			"32"
+			"tall"			"32"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"230 230 230 255"
+			"fgcolor_override"	"black"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -1073,7 +1073,7 @@
 			"fieldName"		"Notifications_ShowButtonPanel_SB"
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"1"
+			"zpos"			"4"
 			"wide"			"32"
 			"tall"			"32"
 			"autoResize"	"0"
@@ -1095,8 +1095,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"230 230 230 255"
+			"image_drawcolor"	"white"
+			"image_armedcolor"	"white"
 			
 			"SubImage"
 			{
@@ -1107,9 +1107,9 @@
 				"zpos"			"1"
 				"wide"			"32"
 				"tall"			"32"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
-				"image"			"button_Alert"
+				"image"			"glyph_achievements"
 				"scaleImage"	"1"
 			}
 		}
@@ -1119,15 +1119,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
+		"xpos"			"240"
+		"ypos"			"r84"
 		"zpos"			"17"
 		"wide"			"210"
 		"tall"			"80"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"paintbackground"	"1"
+		"bgcolor_override" "TransparentBlack"
 		
 		"Notifications_CloseButton"
 		{
@@ -1159,11 +1159,11 @@
 
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "white"
+			"armedFgColor_override" "Grey"
+			"depressedFgColor_override" "white"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"white"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -1196,7 +1196,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"LabelDark"
+			"fgcolor"		"white"
 			"wrap"			"1"
 		}
 		
